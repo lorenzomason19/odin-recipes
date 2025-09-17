@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  margin: 0 auto;
+  background-color: rgb(240, 240, 240);
+}
+
+ul {
+  list-style: circle;
+  margin-top: 50px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.ricetta1,
+.ricetta2,
+.ricetta3 {
+  outline: 1px solid #000000c7;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.ricetta1 {
+  margin-right: 20px;
+}
+
+.ricetta1:hover,
+.ricetta2:hover,
+.ricetta3:hover {
+  background-color: #caedb9;
+  font-weight: bold;
+}
+
+.ricetta2 {
+  margin-right: 20px;
+}
