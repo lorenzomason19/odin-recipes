@@ -17,35 +17,49 @@ li {
 
 a {
   text-decoration: none;
+  display: block;
   color: black;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+a:hover {
+  outline: 1px solid gray;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 15px;
+  border-radius: 20px;
 }
 
 .title {
   text-align: center;
   border-bottom: 1px solid black;
   padding: 10px;
-  background-color: lightblue;
+  background-color: rgb(202, 232, 241);
 }
 
 .ricetta1,
 .ricetta2,
 .ricetta3 {
   outline: 1px solid #000000c7;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
 }
 
 .ricetta1 {
   margin-right: 20px;
-}
-
-.ricetta1:hover,
-.ricetta2:hover,
-.ricetta3:hover {
-  background-color: #caedb9;
-  font-weight: bold;
+  background-color: rgb(255, 255, 255);
 }
 
 .ricetta2 {
   margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.ricetta3 {
+  background-color: rgb(255, 255, 255);
 }
